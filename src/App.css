@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Star Wars';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Star Wars'), local('Star Wars'),
+         url('./fonts/Starjedi.ttf') format('truetype') /* Safari, Android, iOS */
+  }
+  @font-face {
+    font-family: 'Star Wars Hole';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Star Wars Hole'), local('Star Wars Hole'),
+         url('./fonts/Starjhol.ttf') format('truetype') /* Safari, Android, iOS */
+  }
+
+body{
+     /* display: flex;
+     align-items: center ;
+  justify-content:flex-start; */
+
+    background-color: black;
+}
+h1{
+    color: #FFE917;
+}
+
+a{
+    color: #FFE917;
+    text-decoration: none;
+}
+
+p{
+    color: #FFE917;
+}
+
+nav{
+
+
+    
+    height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  padding-top: 200px; /* Place content 60px from the top */
+  padding-left: 15px;
+  font-family: "Star Wars";
+  font-size: 20px;
+
+}
+
+.link{
+    transition: all .2s ease-in-out;;
+}
+.link:hover{
+    font-size: 28px;
+    font-family: "Star Wars Hole";
+    text-shadow: 5px 5px 5px yellow;
+}
