@@ -103,6 +103,7 @@
     }
     100% {
       opacity: 0;
+      background-color: red !important;
       /* transform: translateZ(-1000em); */
     }
   }
@@ -118,9 +119,11 @@
     90% {
       opacity: 0.5;
       transform: scale(1);
+      background-color: red !important;
     }
     100% {
       opacity: 0;
+      background-color: red !important;
       /* transform: translateZ(-1000em); */
     }
   }
