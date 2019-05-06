@@ -6,14 +6,6 @@ import './home.css'
 
 class Home extends Component{
 
-  componentDidMount(){
-    // document.getElementById('fLogo').style.display='none';
-    this.timeout = setTimeout(
-      function() {
-        document.getElementById('fLogo').style.display='none';
-      }, 4999);
-  }
-
   componentWillUnmount() {
     clearTimeout(this.timeout)
   }

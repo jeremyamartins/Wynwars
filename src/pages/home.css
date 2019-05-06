@@ -6,7 +6,6 @@
     width: 100%;
     height: 100%;
     background: #000;
-    overflow: hidden;
   }
   
   .fade {
@@ -77,15 +76,19 @@
 
   .star {
     animation: star 5s ease-out ;
+    animation-fill-mode: forwards;
   }
   .wars {
     animation: wars 5s ease-out ;
+    animation-fill-mode: forwards;
   }
   .byline span {
     animation: spin-letters 5s linear ;
+    animation-fill-mode: forwards;
   }
   .byline {
     animation: move-byline 5s linear ;
+    animation-fill-mode: forwards;
   }
   
   /* Keyframes */
