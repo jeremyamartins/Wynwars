@@ -29,3 +29,23 @@ h1 {
 
 }
 
+.results{
+     text-align: center;
+     color: #ffe918 ;
+     font-family: 'Star Wars';
+ }
+ 
+ .characters {
+     /* margin: 0 auto;
+     width: 300px;
+     height: 600px; */
+     
+     
+ }
+ .search{
+     color: #FFE917;
+     text-align: center;
+    
+     /* justify-content: center; */
+    
+    }

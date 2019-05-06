@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import axios from 'axios';
 import Navbar from '../components/Navbar'
-import UserForm from '../components/UserForm';
-import Display from '../components/Display'
+import CharactersUserForm from '../components/CharactersUserForm';
+import CharactersDisplay from '../components/CharacterDisplay'
 import './Characters.css'
 import ls from './pics/ls.png';
 
@@ -37,14 +37,15 @@ class Characters extends Component {
         <Navbar/>
         <div id="lsdiv">
         <h1>Star Wars</h1>
-        <img id="ls" src={ls}></img>
+        <img alt="lightsabers" id="ls" src={ls}></img>
         <h1>Characters</h1>
         </div>
-        <UserForm getCharacter={this.getCharacter}/>
-        <Display characters={this.state.characters} />
+       
+        <CharactersUserForm getCharacter={this.getCharacter}/>
+        <CharactersDisplay characters={this.state.characters} />
       </>
     )
   }
 }
 
-export default Characters
+export default Characters    

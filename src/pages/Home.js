@@ -6,9 +6,6 @@ import './home.css'
 
 class Home extends Component{
 
-  componentWillUnmount() {
-    clearTimeout(this.timeout)
-  }
 
 render(){
     return(
