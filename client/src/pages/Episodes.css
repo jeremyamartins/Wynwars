@@ -1,33 +1,53 @@
-#results{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  grid-gap: 10px;
-}
-
-#ls{
-    width: 150px;
-    height: 150px;
-     /* z-index: 1; */
-
-}
-
-#lsdiv{
-     display: flex;
-     justify-content: center;
-     margin-left: 25px;
-}
-
-#selector{
+h1 {
+  color: #FFE917;
+  font-family: 'Star Wars';
   text-align: center;
+  margin-top: 50px;
+  margin-right: -45px;
+  margin-left: -45px;
 }
 
-.movie{
+
+#lse{
+ width: 150px;
+ height: 150px;
+
+
+}
+
+#lsediv{
+  display: flex;
+  justify-content: center;
+  margin-right: 40px;
+
+}
+
+.results{
+  text-align: center;
+  color: #ffe918 ;
+  font-family: 'Star Wars';
+}
+
+
+#middle{
   display: grid;
-  place-items: center;
+  justify-items: center;
+  margin: 0 200px;
+  font-family: 'Star Wars';
+  font-size: 25px;
+  
 }
 
-.movie img {
+.hidden{
+  opacity: 0;
+  visibility: hidden;
+}
+
+#poster{
+  display: grid;
+  float: right;
+}
+#poster img{
+  height: 350px;
   width: 250px;
-  height: 370px;
-  object-fit: cover;
 }
