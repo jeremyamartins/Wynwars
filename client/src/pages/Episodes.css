@@ -4,6 +4,23 @@
   grid-gap: 10px;
 }
 
+#ls{
+    width: 150px;
+    height: 150px;
+     /* z-index: 1; */
+
+}
+
+#lsdiv{
+     display: flex;
+     justify-content: center;
+     margin-left: 25px;
+}
+
+#selector{
+  text-align: center;
+}
+
 .movie{
   display: grid;
   place-items: center;

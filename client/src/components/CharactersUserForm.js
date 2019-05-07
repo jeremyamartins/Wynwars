@@ -1,6 +1,7 @@
 import React from 'react'
-import './UserForm.css'
-const UserForm = (props) => {
+
+
+const CharactersUserForm = (props) => {
     return(
         <form className="search" onSubmit = {props.getCharacter}>
             <h4>Enter Character</h4>
@@ -11,4 +12,4 @@ const UserForm = (props) => {
     )
 }
 
-export default UserForm
+export default CharactersUserForm
