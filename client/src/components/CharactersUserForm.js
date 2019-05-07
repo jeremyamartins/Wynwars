@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const CharactersUserForm = (props) => {
     return(
         <form className="search" onSubmit = {props.getCharacter}>

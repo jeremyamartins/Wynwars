@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Navbar from '../components/Navbar'
 import './Episodes.css'
 import axios from 'axios'
+import ls from './pics/ls.png';
 
 
 class Episodes extends Component {
@@ -21,8 +22,8 @@ class Episodes extends Component {
         console.log(err)
       })
     }else{
-      return 
-    } 
+      return
+    }
   }
 
 
@@ -30,7 +31,11 @@ class Episodes extends Component {
     return(
       <>
         <Navbar/>
-        <h1>Star Wars Episodes</h1>
+        <div id="lsdiv">
+        <h1>Star Wars</h1>
+        <img alt="lightsabers" id="ls" src={ls}></img>
+        <h1>Episodes</h1>
+        </div>
         <select id="selector" onChange={this.getEpisode}>
           <option value="1">A New Hope</option>
           <option value="2">Empire Strikes Back</option>
