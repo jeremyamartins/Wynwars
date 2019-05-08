@@ -208,7 +208,7 @@
     letter-spacing: 0.4em;
     right: -2em;
     text-align: center;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     top: 29%;
   }
   
