@@ -1,13 +1,14 @@
 import React from 'react'
+import '../pages/Characters.css'
 
 
 const CharactersUserForm = (props) => {
     return(
         <form className="search" onSubmit = {props.getCharacter}>
-            <h4>Enter Character</h4>
-            <input  placeholder="Character" type="text" name="character"/>
+            <h1>Enter Character</h1>
+            <input id="charInput" placeholder="Character" type="text" name="character"/>
             <br></br>
-            <button>Submit</button>
+            <button id="submit">Submit</button>
         </form>
     )
 }

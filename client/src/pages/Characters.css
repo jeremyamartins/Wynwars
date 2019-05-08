@@ -7,19 +7,28 @@ h1 {
      margin-left: -45px;
 }
 
-.characters {
-     /* margin: 0 auto;
-     width: 300px;
-     height: 600px; */
-     
-     
+#charInput{
+     background-color: transparent;
+     border-width: 1px 0;
+     border-radius: 25%;
+     border-color: #FFE917;
+     margin-bottom: 10px;
+     padding: 8px;
+     text-align: center;
+     font-family: 'Star Wars';
+     color: #FFE917;
+}
+
+#submit{
+     background-color: transparent;
+     border: 0px solid;
+     font-family: 'Star Wars';
+     color: #FFE917;
 }
 
 #ls{
     width: 150px;
     height: 150px;
-     /* z-index: 1; */
-
 }
 
 #lsdiv{
@@ -29,23 +38,28 @@ h1 {
 
 }
 
+.characters {
+     display: grid;
+     justify-items: center;
+     margin: 10px 0;
+     font-family: 'Star Wars';
+}
+
 .results{
-     text-align: center;
      color: #ffe918 ;
      font-family: 'Star Wars';
  }
- 
- .characters {
-     /* margin: 0 auto;
-     width: 300px;
-     height: 600px; */
-     
-     
+
+ .categories{
+     border-width: 1px 0;
+     border-style: solid; 
+     border-radius: 25%;
+     border-color: #FFE917;
+     margin: 5px 0;
+     padding: 18px;
  }
+ 
  .search{
-     color: #FFE917;
+     /* color: #FFE917; */
      text-align: center;
-    
-     /* justify-content: center; */
-    
     }
