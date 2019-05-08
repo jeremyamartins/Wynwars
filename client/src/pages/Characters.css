@@ -1,65 +1,84 @@
 h1 {
-     color: #FFE917;
-     font-family: 'Star Wars';
-     text-align: center;
-     margin-top: 50px;
-     margin-right: -45px;
-     margin-left: -45px;
+  color: #ffe917;
+  font-family: "Star Wars";
+  text-align: center;
+  margin-top: 50px;
+  margin-right: -45px;
+  margin-left: -45px;
 }
 
-#charInput{
-     background-color: transparent;
-     border-width: 1px 0;
-     border-radius: 25%;
-     border-color: #FFE917;
-     margin-bottom: 10px;
-     padding: 8px;
-     text-align: center;
-     font-family: 'Star Wars';
-     color: #FFE917;
+#charInput {
+  background-color: transparent;
+  border-width: 1px 0;
+  border-radius: 25%;
+  border-color: #ffe917;
+  margin-bottom: 10px;
+  padding: 8px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Star Wars";
+  color: #3fbee4;
 }
 
-#submit{
-     background-color: transparent;
-     border: 0px solid;
-     font-family: 'Star Wars';
-     color: #FFE917;
+#submit {
+  background-color: transparent;
+  border: 0px solid;
+  margin: 10px 0px;
+  font-family: "Star Wars";
+  font-size: 20px;
+  color: #ffe917;
+  outline: none;
+  transition: all 0.2s ease-in-out;
 }
 
-#ls{
-    width: 150px;
-    height: 150px;
+#submit:hover {
+  font-size: 28px;
+  font-family: "Star Wars Hole";
+  text-shadow: 5px 5px 5px yellow;
 }
 
-#lsdiv{
-     display: flex;
-     justify-content: center;
-     margin-left: 25px;
+#ls {
+  width: 150px;
+  height: 150px;
+}
 
+#lsdiv {
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
 }
 
 .characters {
-     display: grid;
-     justify-items: center;
-     margin: 10px 0;
-     font-family: 'Star Wars';
+  display: grid;
+  justify-items: center;
+  margin: 10px 0;
+  font-family: "Star Wars";
 }
 
-.results{
-     color: #ffe918 ;
-     font-family: 'Star Wars';
- }
+.results {
+  color: #ffe918;
+  font-family: "Star Wars";
+}
 
- .categories{
-     border-width: 1px 0;
-     border-style: solid; 
-     border-radius: 25%;
-     border-color: #FFE917;
-     margin: 5px 0;
-     padding: 18px;
- }
- 
- .search{
-     /* color: #FFE917; */
-     text-align: center;
-    }
+.categories {
+  border-width: 1px 0;
+  border-style: solid;
+  border-radius: 25%;
+  border-color: #ffe917;
+  margin: 20px 0;
+  padding: 18px;
+  transition: all 0.2s ease-in-out;
+}
+
+.categories:hover {
+  font-size: 20px;
+}
+
+.search {
+  /* color: #FFE917; */
+  text-align: center;
+}
+
+input {
+  outline: none;
+}

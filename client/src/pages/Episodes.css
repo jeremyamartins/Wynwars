@@ -1,53 +1,56 @@
 h1 {
-  color: #FFE917;
-  font-family: 'Star Wars';
+  color: #ffe917;
+  font-family: "Star Wars";
   text-align: center;
   margin-top: 50px;
   margin-right: -45px;
   margin-left: -45px;
 }
 
-
-#lse{
- width: 150px;
- height: 150px;
-
-
+#lse {
+  width: 150px;
+  height: 150px;
 }
 
-#lsediv{
+#lsediv {
   display: flex;
   justify-content: center;
-  margin-right: 40px;
-
+  margin-right: 25px;
 }
 
-.results{
+.results {
   text-align: center;
-  color: #ffe918 ;
-  font-family: 'Star Wars';
+  color: #ffe918;
+  font-family: "Star Wars";
 }
 
-
-#middle{
+#middle {
   display: grid;
   justify-items: center;
   margin: 0 200px;
-  font-family: 'Star Wars';
+  font-family: "Star Wars";
   font-size: 25px;
-  
 }
 
-.hidden{
+.hidden {
   opacity: 0;
   visibility: hidden;
 }
 
-#poster{
+#poster {
   display: grid;
   float: right;
 }
-#poster img{
+#poster img {
   height: 350px;
   width: 250px;
+}
+#selector {
+  outline: none;
+  background-color: rgb(147, 147, 147);
+  border: none;
+  font-size: 14px;
+  height: 29px;
+  padding: 5px; /* If you add too much padding here, the options won't show in IE */
+  width: 268px;
 }
