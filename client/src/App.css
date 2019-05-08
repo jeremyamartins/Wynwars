@@ -19,6 +19,8 @@ body{
   justify-content:flex-start; */
 
     background-color: black;
+    text-transform: lowercase;
+
 }
 h1{
     color: #FFE917;
