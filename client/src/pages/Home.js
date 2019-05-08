@@ -5,7 +5,7 @@ import "./home.css";
 class Home extends Component {
   render() {
     return (
-      <div id="home">
+      <div id="home" class="s2 t2">
         <Navbar />
 
         <div className="fade" />
@@ -18,12 +18,18 @@ class Home extends Component {
                 <h1>About Us</h1>
               </div>
 
+              <p id="about">
+                <span class="caps">W</span>elcome to the{" "}
+                <span class="caps">s</span>tar <span class="caps">w</span>ars{" "}
+                <span class="caps">D</span>atabase! For All of your intrests in
+                the universe beyond stars, we have created a{" "}
+                <span class="caps">D</span>atabase made available for anyone to
+                search their favorite <span class="caps">E</span>pisodes along
+                with <span class="caps">C</span>harecters within them. The{" "}
+                <span class="caps">G</span>alaxy is unlimited. &nbsp;&nbsp;{" "}
+              </p>
               <p>
-                Welcome to the Star Wars Database! For All of your intrests in
-                the universe beyond stars, we have created a Database made
-                available for anyone to search their favorite Episodes along
-                with Charecters within them. The Galaxy is unlimited... As
-                Obi-Wan says "May the force be with you!"
+                <span class="caps">M</span>ay the force be with you!
               </p>
             </div>
           </section>
